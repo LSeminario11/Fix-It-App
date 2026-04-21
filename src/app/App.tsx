@@ -19,26 +19,7 @@ export default function App() {
           </div>
           <h1 className="text-4xl font-bold text-[#1a1a1a]">Fix It</h1>
         </div>
-        <div className="flex gap-3">
-          <a
-            href={LINKEDIN_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-[#2d2d2d] text-white px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-[#3d3d3d] transition-colors"
-          >
-            <Linkedin size={20} />
-            <span className="font-semibold">LinkedIn</span>
-          </a>
-          <a
-            href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-[#FF5722] px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors border-2 border-white"
-          >
-            <Instagram size={20} />
-            <span className="font-semibold">Instagram</span>
-          </a>
-        </div>
+       
       </header>
 
       {/* Main Content */}
@@ -56,9 +37,9 @@ export default function App() {
             rel="noopener noreferrer"
             className="bg-[#FF5722] rounded-2xl p-12 flex items-center justify-center hover:bg-[#f4511e] transition-colors cursor-pointer min-h-[250px]"
           >
-            <h3 className="text-4xl font-bold text-white text-center leading-tight">
-              Queremos<br />conocer tu<br />opinión
-            </h3>
+           <h3 className="text-2xl font-bold text-white text-center leading-tight">
+            Queremos conocer tu opinión<br />Llena nuestro forms aquí👈
+          </h3>
           </a>
 
           {/* Ilustración */}
